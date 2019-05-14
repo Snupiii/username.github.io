@@ -1,0 +1,415 @@
+@media only screen and (min-width: 768px){
+	
+	body{
+		padding-left:0px;
+		font-family: 'Oswald', sans-serif;
+		background-color:#ffffff;
+		width:993px;
+		margin:75px auto 150px auto;
+		overflow-x: hidden;
+		
+	}
+	img{
+		border: 5px solid #282828;
+	}
+	.kj{
+		position:absolute;
+		z-index:1;
+		top:10px;
+		padding-left:22px;
+	}
+	.kj img{
+		border:0;
+		height: 250px;
+		
+	}
+	.pasek {
+		margin-left:725px;
+		margin-top: -25px;
+		height: 20px;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+
+		background-color: #282828;
+	}
+	.menu {
+		margin-left:725px;
+		margin-top: -5px;
+		height: 107px;
+		width: 290px;
+		position: absolute;
+		z-index: 1;
+		background-color: #ffffff;
+
+	}
+	ul {
+		list-style-type: none;
+		padding:0px;
+		word-spacing: 13px;
+	}
+	ul li {
+		display:inline;
+	}
+	.menu a {
+		text-decoration: none;
+		font-size: 30px;
+		color: #282828;
+
+
+	}
+
+	.klocek2{
+		position:absolute;
+		height:397px;
+		width:100%;
+		top:106px;
+		left:1001px;
+		background-color: #282828;
+	}
+	
+	.klocek3{
+		position:absolute;
+		height:495px;
+		width:350px;
+		top:208px;
+		left:-350px;
+		background-color: #282828;
+	}
+	.klocek4{
+		position:absolute;
+		height:498px;
+		width:100%;
+		top:816px;
+		left:1002px;
+		background-color: #282828;
+	}
+	.klocek5{
+		position:absolute;
+		height:497px;
+		width:350px;
+		top:919px;
+		left:-350px;
+		background-color: #282828;
+	}
+
+
+	.box {
+		
+		width:993px;
+		position:absolute;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-template-rows: repeat(18, 1fr);
+		line-height:0;
+
+	}
+	.rys1{
+		grid-column: 4 / span 4;
+		grid-row: 1 / span 4;
+		
+
+	}
+	.rys2{
+		grid-column: 7 / span 4;
+		grid-row: 2 / span 4;
+
+	}
+	.rys3{
+		grid-column: 6 / span 4;
+		grid-row: 5 / span 5;
+		margin-top:-5px;
+
+	}
+	.rys4{
+		grid-column: 1 / span 5;
+		grid-row: 3 / span 5;
+	}
+	.rys5{
+		grid-column: 3 / span 5;
+		grid-row: 6 / span 5;
+	}
+	.rys6{
+		grid-column: 7 / span 4;
+		grid-row: 9 / span 5;
+	}
+	.rys7{
+		grid-column: 1 / span 4;
+		grid-row: 10 / span 5;
+	}
+	.rys8{
+		grid-column: 6 / span 4;
+		grid-row: 13 / span 5;
+	}
+	.rys9{
+		grid-column: 3 / span 5;
+		grid-row: 11 / span 5;
+		margin-top:-7px;
+	}
+	.rys10{
+		grid-column: 2 / span 4;
+		grid-row: 13 / span 6;
+	}
+
+	.kontakt {
+		margin-top:40px;
+		height: 135px;
+		width: 312px;
+		position: absolute;
+		top:1764px;
+		margin-left:506px;
+		background-color: #ffffff;
+		padding-left:48px;
+		padding-top:10px;
+
+	}
+
+	.twitter img{
+	border:0;
+	}
+
+	.facebook img{
+	border:0;
+	}
+
+	.insta img{
+	border:0;
+	}
+
+	.txt{
+		display:none;
+	}
+	.kontakt img{
+		margin-top:15px;
+		margin-left:45px;
+		display:block;
+		float:left;
+		width:45px;
+		height:45px;
+		
+	}
+
+}
+
+@media only screen and (min-width: 1400px){
+	
+	body{
+		padding-left:0;
+		font-family: 'Oswald', sans-serif;
+		background-color:#ffffff;
+		width:993px;
+		margin:75px auto 150px auto;
+		overflow-x: hidden;
+		
+	}
+	img{
+		border: 5px solid #282828;
+	}
+	.kj{
+		padding:0;
+		position:fixed;
+		z-index:1;
+		top:10px;
+		left:0;
+	}
+	.kj img{
+		border:0;
+		height: 140px;
+		
+	}
+	.pasek {
+		margin:0;
+		margin-top: 20%;
+		height: 135px;
+		width: 20px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0px;
+		background-color: #282828;
+	}
+	.menu {
+		margin:0;
+		margin-top: 20%;
+		height: 135px;
+		width: 154px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 35px;
+		background-color: #ffffff;
+
+	}
+	ul {
+	  list-style-type: none;
+	  padding:0px;
+	}
+	.menu a {
+		text-decoration: none;
+		font-size: 45px;
+		color: #282828;
+		display: block;
+		line-height:45px;
+	}
+	.klocek{
+		position:absolute;
+		height:97px;
+		width:100%;
+		top:5px;
+		left:700px;
+		background-color: #282828;
+	}
+	.klocek2{
+		position:absolute;
+		height:397px;
+		width:100%;
+		top:106px;
+		left:1001px;
+		background-color: #282828;
+	}
+	.klocek3{
+		position:absolute;
+		height:305px;
+		width:100%;
+		top:507px;
+		left:903px;
+		background-color: #282828;
+	}
+	.klocek4{
+		position:absolute;
+		height:498px;
+		width:100%;
+		top:816px;
+		left:1002px;
+		background-color: #282828;
+	}
+	.klocek5{
+		position:absolute;
+		height:401px;
+		width:100%;
+		top:1318px;
+		left:903px;
+		background-color: #282828;
+	}
+	.klocek6{
+		position:absolute;
+		height:97px;
+		width:125%;
+		top:1723px;
+		left:506px;
+		background-color: #282828;
+	}
+	.box {
+		width:993px;
+		position:absolute;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-template-rows: repeat(18, 1fr);
+		line-height:0;
+
+	}
+	.rys1{
+		grid-column: 4 / span 4;
+		grid-row: 1 / span 4;
+		
+
+	}
+	.rys2{
+		grid-column: 7 / span 4;
+		grid-row: 2 / span 4;
+
+	}
+	.rys3{
+		grid-column: 6 / span 4;
+		grid-row: 5 / span 5;
+		margin-top:-5px;
+
+	}
+	.rys4{
+		grid-column: 1 / span 5;
+		grid-row: 3 / span 5;
+	}
+	.rys5{
+		grid-column: 3 / span 5;
+		grid-row: 6 / span 5;
+	}
+	.rys6{
+		grid-column: 7 / span 4;
+		grid-row: 9 / span 5;
+	}
+	.rys7{
+		grid-column: 1 / span 4;
+		grid-row: 10 / span 5;
+	}
+	.rys8{
+		grid-column: 6 / span 4;
+		grid-row: 13 / span 5;
+	}
+	.rys9{
+		grid-column: 3 / span 5;
+		grid-row: 11 / span 5;
+		margin-top:-7px;
+	}
+	.rys10{
+		grid-column: 2 / span 4;
+		grid-row: 13 / span 6;
+	}
+	.pasek2 {
+		height: 127px;
+		width: 20px;
+		position: absolute;
+		top:1772px;
+		bottom: 0;
+		left: 0px;
+		background-color: #282828;
+	}
+	.kontakt {
+		margin:0;
+		height: 135px;
+		width: 133px;
+		position: absolute;
+		top:1764px;
+		left: 35px;
+		background-color: #ffffff;
+		padding-left:45px;
+		padding-top:10px;
+	}
+	.twitter{
+		position:absolute;
+		margin-left:-42px;
+		margin-top:-1px;
+		width:36px;
+		height:36px;
+	}
+	.twitter img{
+	border:0;
+	}
+	.facebook{
+		position:absolute;
+		margin-left:-42px;
+		margin-top:-1px;
+		width:36px;
+		height:36px;	
+	}
+	.facebook img{
+	border:0;
+	}
+	.insta{
+		position:absolute;
+		margin-left:-42px;
+		margin-top:-1px;
+		width:36px;
+		height:36px;	
+	}
+	.insta img{
+	border:0;
+	}
+	.kontakt a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		font-size: 28px;
+		color: #282828;
+		display: block;
+		line-height:45px;
+	}
+}

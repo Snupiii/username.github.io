@@ -1,0 +1,143 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	background-color:#ffffff;
+	width:993px;
+	margin:75px auto 150px auto;
+	overflow-x: hidden;
+	
+}
+img{
+	border: 5px solid #282828;
+}
+.kj{
+	position:fixed;
+	z-index:1;
+	top:10px;
+	left:0;
+}
+.kj img{
+	border:0;
+	height: 140px;
+	
+}
+.pasek {
+	margin-top: 20%;
+    height: 135px;
+    width: 20px;
+    position: fixed;
+    z-index: 1;
+    top: -3px;
+    left: 0px;
+    background-color: #282828;
+	
+}
+.menu {
+	margin-top: 20%;
+    height: 135px;
+    width: 154px;
+    position: fixed;
+    z-index: 1;
+    top: -3px;
+    left: 35px;
+    background-color: #ffffff;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 45px;
+    color: #282828;
+    display: block;
+	line-height:45px;
+}
+
+
+.klocek2{
+	position:absolute;
+	height:135px;
+	width:200%;
+	top:306px;
+	left:-8px;
+	background-color: #282828;
+}
+
+.klocek2 p{
+	font-weight: 300;
+	margin-top:44px;
+	margin-left:19px;
+	color:white;
+	font-size:60px;
+
+}
+	
+.box {
+	width:993px;
+	position:absolute;
+}
+
+.pasek2 {
+    height: 127px;
+    width: 20px;
+    position: absolute;
+	top:759px;
+    bottom: 0;
+    left: 0px;
+    background-color: #282828;
+}
+.kontakt {
+    height: 135px;
+    width: 133px;
+    position: absolute;
+    top:759px;
+    left: 35px;
+    background-color: #ffffff;
+	padding-left:45px;
+	padding-top:10px;
+	
+}
+.twitter{
+	position:absolute;
+	margin-left:-42px;
+	margin-top:-8px;
+	width:36px;
+	height:36px;
+}
+.twitter img{
+border:0;
+margin-top:5px;
+}
+
+.facebook{
+	position:absolute;
+	margin-left:-42px;
+	margin-top:-8px;
+	width:36px;
+	height:36px;	
+}
+.facebook img{
+border:0;
+	margin-top:7px;
+}
+.insta{
+	position:absolute;
+	margin-left:-42px;
+	margin-top:-8px;
+	width:36px;
+	height:36px;	
+}
+.insta img{
+border:0;
+	margin-top:9px;
+}
+.kontakt a {
+    text-decoration: none;
+	letter-spacing: -1px;
+    font-size: 28px;
+    color: #282828;
+    display: block;
+	line-height:45px;
+	
+	
+}
+.link{
+		margin-top:-4px;
+}
